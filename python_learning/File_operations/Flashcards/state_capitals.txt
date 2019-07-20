@@ -1,0 +1,29 @@
+Andra Pradesh, Hyderabad
+Arunachal Pradesh, Itangar
+Assam,Dispur
+Bihar,Patna
+Chhattisgarh,Raipur
+Goa,Panaji
+Gujarat,Gandhinagar
+Haryana,Chandigarh
+Himachal Pradesh,Shimla
+Jammu and Kashmir,Srinagar
+Jharkhand,Ranchi
+Karnataka,Bangalore
+Kerala,Thiruvananthapuram
+Madya Pradesh,Bhopal
+Maharashtra,Mumbai
+Manipur,Imphal
+Meghalaya,Shillong
+Mizoram,Aizawi
+Nagaland,Kohima
+Orissa,Bhubaneshwar
+Punjab,Chandigarh
+Rajasthan,Jaipur
+Sikkim,Gangtok
+Tamil Nadu,Chennai
+Telagana,Hyderabad
+Tripura,Agartala
+Uttaranchal,Dehradun
+Uttar Pradesh,Lucknow
+West Bengal,Kolkata
