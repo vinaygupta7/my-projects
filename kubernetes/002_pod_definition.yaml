@@ -1,0 +1,25 @@
+apiVersion: v1
+kind: Pod
+############################
+#  Kind       #### Version #
+#  Pod        ---- v1      #
+#  Service    ---- v1      #
+#  ReplicaSet ---- apps/v1 #
+#  Deployment ---- apps/v1 #
+############################
+
+metadata:   #Dictionary
+  name: myapp-Pod
+  labels: #Dictionary
+    app: myapp
+    type: frontend
+
+spec: 
+  containers: ##It will be a list/Array cause a pod can contain multiple containers
+    - name: nginx-containers
+      image: nginx
+
+
+#####    kubectl create -f 002_pod_definition.yaml
+ ###     kubectl get pods
+ ###     kubectl describe pods

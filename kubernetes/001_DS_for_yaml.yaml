@@ -1,0 +1,24 @@
+
+##Understand the data structure for Yaml
+
+#   Key Value pair
+Fruit: Apple
+Vegetable: Carrot
+Dessert: Cake
+Drink: Beer
+
+
+#   Array /Lists
+
+Fruits:
+  - Apple
+  - Banana
+  - Orange
+
+#   Dictionary
+
+Banana:
+  Calories: 105
+  Fat: 0.4 g
+  Carbs: 27 g
+######################################################
