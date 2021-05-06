@@ -1,0 +1,2 @@
+TASK 1: 6th May 2021
+write a script to output system OS NAME,VERSION,kernel version, CPU count, TOTAL Memory  and SYSTEM Manufacturer name in file /tmp/Server-details.log
