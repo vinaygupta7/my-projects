@@ -1,6 +1,11 @@
 #!/bin/bash
 echo "******************* Gathering System Info... ****************************"
-sleep 3
+
+which dmidecode > /dev/null
+if [ "$?" -ne 0 ]; then
+    echo "Error! dmidecode command not found!"
+fi
+   
 OSNAME=`cat /etc/*release| grep ^NAME| cut -d= -f2`
 OSVERSION=`cat /etc/*release| grep ^VERSION= |cut -d= -f2`
 KERNELVERSION=`uname -r`
@@ -10,13 +15,13 @@ SYSMF=`sudo dmidecode | grep "System Information" -A1 | grep Manufacturer |cut -
 
 touch /tmp/Server-details.log
 
-echo "***$(date)*****" > /tmp/Server-details.log
-echo "OS NAME            : $OSNAME"     >> /tmp/Server-details.log
-echo "OS VERSION         : $OSVERSION"  >> /tmp/Server-details.log
-echo "Kernel Version     : $KERNELVERSION" >> /tmp/Server-details.log
-echo "CPU COUNT          : $CPUCOUNT" >> /tmp/Server-details.log
-echo "TOTAL MEMORY       : $TOTALMEM Kb" >> /tmp/Server-details.log
-echo "SYSTEM MANUFACTURER: $SYSMF" >> /tmp/Server-details.log
+echo "***$(date)*****" | tee  /tmp/Server-details.log
+echo "OS NAME            : $OSNAME" | tee -a    /tmp/Server-details.log
+echo "OS VERSION         : $OSVERSION"  |tee -a /tmp/Server-details.log
+echo "Kernel Version     : $KERNELVERSION" |tee -a  /tmp/Server-details.log
+echo "CPU COUNT          : $CPUCOUNT" | tee -a  /tmp/Server-details.log
+echo "TOTAL MEMORY       : $TOTALMEM Kb" | tee -a /tmp/Server-details.log
+echo "SYSTEM MANUFACTURER: $SYSMF" | tee -a /tmp/Server-details.log
 
 echo "System Details present in file: /tmp/Server-details.log"
 echo "*************************************************************************"
