@@ -2,8 +2,9 @@
 echo "******************* Gathering System Info... ****************************"
 
 which dmidecode > /dev/null
-if [ "$?" -ne 0 ]; then
+if [ "$?" -ne 0 ]; then 
     echo "Error! dmidecode command not found!"
+    exit 1
 fi
    
 OSNAME=`cat /etc/*release| grep ^NAME| cut -d= -f2`
