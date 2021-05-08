@@ -5,5 +5,5 @@ TASK 2: 7Th May 2021
 write a script to :
 a.create directory in /tmp by the username executing the script.  eg. /tmp/sandeep if it does not exist.
 Note: if the directory exists it should not create it.
-b. create a file in the above created directory with current date and time extension as shown .... 07-05-2021-19-35.log
+b. create a file in the above created directory with current date and time extension as shown .... 07-05-2021-19-35.log DD-MM-YYYY-hh-mm.log
  if directory exists then it should print a message "directory already exists else ... it should print creating directory : dirname ...
