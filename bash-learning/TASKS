@@ -7,3 +7,8 @@ a.create directory in /tmp by the username executing the script.  eg. /tmp/sande
 Note: if the directory exists it should not create it.
 b. create a file in the above created directory with current date and time extension as shown .... 07-05-2021-19-35.log DD-MM-YYYY-hh-mm.log
  if directory exists then it should print a message "directory already exists else ... it should print creating directory : dirname ...
+
+TASK 3: 12 May 2021
+Write a script :
+  To generate backup of all the configuration files from /etc and store in /tmp/HOSTNAME-etc-backup-DD-MM_YY.tar.gz.
+ 
