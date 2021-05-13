@@ -10,5 +10,16 @@ b. create a file in the above created directory with current date and time exten
 
 TASK 3: 12 May 2021
 Write a script :
-  To generate backup of all the configuration files from /etc and store in /tmp/HOSTNAME-etc-backup-DD-MM_YY.tar.gz.
+  To generate backup of all the configuration files [.conf] from /etc and store in /tmp/HOSTNAME-etc-backup-DD-MM_YY.tar.gz. The conf files should be renamed to XX.conf.bak using for loop.
  
+TASK 4: 13 May 2021
+Write a script:
+   Using while loop print only the numbers which are divisible by 3 from 1 to 100. For testing divisibility by 3 you can use if condition.
+   Required Output:
+	3 is divisible by 3
+	6 is divisible by 3
+	9 is divisible by 3
+	12 is divisible by 3
+	15 is divisible by 3	
+  
+
