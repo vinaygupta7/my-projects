@@ -21,5 +21,12 @@ Write a script:
 	9 is divisible by 3
 	12 is divisible by 3
 	15 is divisible by 3	
+
+TASK 5: 15 May 2021
+Write a script:
+     To take input of filename from user and check for its existence in /tmp directory.
+     test condition 1 : If user does not provide input, script exits asking for file input.
+     test condition 2 : if user provides filename with complete path say for example /tmp/filename.log it should only take filename.log as input.
+        
   
 
