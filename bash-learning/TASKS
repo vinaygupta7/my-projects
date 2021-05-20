@@ -27,6 +27,27 @@ Write a script:
      To take input of filename from user and check for its existence in /tmp directory.
      test condition 1 : If user does not provide input, script exits asking for file input.
      test condition 2 : if user provides filename with complete path say for example /tmp/filename.log it should only take filename.log as input.
-        
-  
+
+TASK 6: 17 May 2021
+Write a script : 
+
+     systeminfo.sh which prompts user for below menu and shows output : Use case satements
+     
+	1.HOSTNAME
+	2.HOST IP
+	3.OS Name
+	4.KERNEL VERSION
+	5.CPU COUNT
+	6.TOTAL MEMORY
+	7.SYSTEM MANUFACTURER
+	8.EXIT
+
+TASK 7: 20 May 2021
+Write a script :
+        systeminfoget.sh using getopts such that when passed with
+                     systeminfoget.sh -h hostname ----> prints hostname  
+                                      -I ip ----------> prints ip of the system 
+                                      -m memory  ----> prints total memory
+                                      -h ------------>  prints scripts usage 
+                                      
 
